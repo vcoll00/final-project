@@ -1,0 +1,89 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  background: #F3EADD;
+  color: #3B140D;
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.card {
+  margin: 1rem;
+}
+
+.card-text {
+  font-size: .8rem;
+  line-height: 1.2rem;
+  padding-left: 1.1rem;
+  text-align: left;
+}
+
+p {
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+ul {
+  text-align: left;
+}
+
+.nav-tabs {
+  margin-top: 1rem;
+}
+
+#myTabContent{
+  margin: 1rem;
+}
+
+.mt-2 {
+  padding-bottom: 1rem;
+}
+
+#game {
+  margin: auto;
+  padding: 2rem;
+  background: #C4865C;
+  max-width: 450px;
+  align-items: center;
+}
+
+#x {
+  max-width: 350px;
+  align-items: center;
+}
+
+.butt {
+  justify-content: center;
+  padding: 1rem;
+  margin: .5rem 0;
+  background: #333;
+  color: #fff;
+}
+
+.butt:hover {
+  background: #069;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: .7rem;
+}
